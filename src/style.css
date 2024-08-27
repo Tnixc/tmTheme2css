@@ -1,0 +1,78 @@
+:root {
+    --accent-color: #FFC107;
+    --bg-color: #010101;
+    --text-color: #E0E0E0;
+    --secondary-bg: #1E1E1E;
+    --font: ui-monospace, Menlo, Monaco;
+}
+
+body {
+    font-family: var(--font);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+a {
+    color: var(--accent-color) !important;
+}
+
+textarea,
+pre {
+    width: 100%;
+    background-color: var(--secondary-bg);
+    border: 2px solid var(--accent-color);
+    color: var(--text-color);
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: var(--font);
+}
+
+textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+button,
+input[type="file"] {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-family: var(--font);
+    transition: opacity 0.3s;
+}
+
+button:hover,
+a:hover,
+p,
+input[type="file"]:hover {
+    opacity: 0.8;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.output-section {
+.input-section,
+    margin-bottom: 20px;
+}
