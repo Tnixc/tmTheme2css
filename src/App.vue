@@ -14,6 +14,7 @@
             <button @click="copyToClipboard">{{ copyButtonContent }}</button>
         </div>
         <div>
+            <p>Note: you may want to try <a href="https://www.npmjs.com/package/vscode-theme-to-sublime-text">converting a vscode theme to a tmTheme</a> and then using this tool to convert it to css.</p>
             <p>
                 made by <a href="https://tnixc.space">tnixc</a> | source on <a
                     href="https://github.com/tnixc/tmTheme2css">github</a> |
